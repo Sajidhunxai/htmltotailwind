@@ -1,73 +1,24 @@
 
 import Image from 'next/image'
 import Script from 'next/script'
+import Navbar from './components/Navbar'
+import Banner from './components/Banner'
+import Section from './components/Section'
+import Footer from './components/Footer'
 
 export default function Home() {
   return (
   
 
       <div id="page-wrapper">
+		
+        <Navbar/>
     
-        {/* <!-- Header --> */}
-        {/* <!-- Header --> */}
-					<header id="header" className="alt">
-						<h1><a href="index.php">SquareNet Media</a></h1>
-						<nav id="nav">
-							<ul>
-								<li className="special">
-									<a href="#menu" className="menuToggle"><span>Menu</span></a>
-									<div id="menu">
-										<ul>
-											<li><a href="/">Home</a></li>
-											<li><a href="#">Sign Up</a></li>
-											<li><a href="#">Log In</a></li>
-										</ul>
-									</div>
-								</li>
-							</ul>
-						</nav>
-					</header>
+        <Banner/>
+    
+        <Section/>
 
-    
-        {/* <!-- Banner --> */}
-      	<section id="banner">
-						<div className="inner">
-							<h2>SquareNet Media</h2>
-							<p>Manchester Based<br />
-							Web Design &amp; Development Agency<br /></p>
-							{/* <!-- <ul className="actions special">
-								<li><a href="#" className="button primary">Activate</a></li>
-							</ul> --> */}
-						</div>
-						<a href="#one" className="more scrolly">Learn More</a>
-					</section>
-    
-          {/* <!-- One --> */}
-					<section id="one" className="wrapper style1 special">
-						<div className="inner">
-							<header className="major">
-								<h2>Under Development</h2>
-								<p>We are undergoing some changes and will be back shortly.</p>
-							</header>
-							<ul className="icons major">
-								<li><span className="icon fa-gem major style1"><span className="label">Lorem</span></span></li>
-								<li><span className="icon fa-heart major style2"><span className="label">Ipsum</span></span></li>
-								<li><span className="icon solid fa-code major style3"><span className="label">Dolor</span></span></li>
-							</ul>
-						</div>
-					</section>
-
-				{/* <!-- Footer --> */}
-					<footer id="footer">
-						<ul className="icons">
-							<li><a href="http://www.twitter.com/squarenetmedia" className="icon brands fa-twitter"><span className="label">Twitter</span></a></li>
-							<li><a href="http://www.facebook.com/squarenetmedia" className="icon brands fa-facebook-f"><span className="label">Facebook</span></a></li>
-							<li><a href="#" className="icon solid fa-envelope"><span className="label">Email</span></a></li>
-						</ul>
-						<ul className="copyright">
-							<li>&copy; <a href="http://www.squarenetmedia.com">SquareNet Media</a></li>
-						</ul>
-					</footer>
+        <Footer/>
 
         <Script>
         {`
