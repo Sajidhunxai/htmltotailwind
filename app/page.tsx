@@ -1,24 +1,21 @@
 
+
 import Image from 'next/image'
 import Script from 'next/script'
 import Navbar from './components/Navbar'
 import Banner from './components/Banner'
 import Section from './components/Section'
 import Footer from './components/Footer'
+import ClientOnly from './components/ClientOnly'
 
 export default function Home() {
+  
   return (
   
 
-      <div id="page-wrapper">
+      <div>
 		
-        <Navbar/>
     
-        <Banner/>
-    
-        <Section/>
-
-        <Footer/>
 
         <Script>
         {`
