@@ -12,7 +12,7 @@ import Footer from './components/Footer';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Web Design &amp; Development Agency | SquareNetMedia',
+  title: 'Web Design & Development Agency | SquareNetMedia',
   description: 'At SquareNet Media, we provide the full team: SEO, Web Design, Graphic Design, Web Development, and many other marketing services for you to explore.',
 }
 
